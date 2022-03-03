@@ -7,8 +7,6 @@ function NavBar({ currentPage, handlePageChange }) {
           <a
             href="#home"
             onClick={() => handlePageChange('Home')}
-            //*  TODO: BONUS: Add a comment explaining what kind of operator this is and what it is checking for
-  
             className={currentPage === 'Home' ? 'nav-link active' : 'nav-link'}
           >
             Home
@@ -44,9 +42,7 @@ function NavBar({ currentPage, handlePageChange }) {
 
         <li className="nav-item">
           <a
-            href="#contact"
-            //  TODO: Add a comment explaining what this logic is doing
-  
+            href="#contact"  
             onClick={() => handlePageChange('Contact')}
             className={currentPage === 'Contact' ? 'nav-link active' : 'nav-link'}
           >
