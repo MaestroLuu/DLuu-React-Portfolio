@@ -13,7 +13,6 @@ export default function About() {
                 scope of their responsibilities. Educational budgets are reduced, but responsibilities are increased 
                 and expectations are higher now than before. As a result, I had to retire from this career for my own personal
                 wellbeing. That's why I'm here today.</p>
-                <br/>
             <p>I'm a full time father and my new drive to succeed derives from my devotion to my family's
                 wellbeing. Technology is evergrowing and as a result, I wanted
                 to be a part of that change. I still am nervous about these decisions and aware that there are
