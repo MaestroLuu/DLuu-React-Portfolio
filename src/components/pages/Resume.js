@@ -10,7 +10,7 @@ export default function Resume() {
   return (
     <div styles={style.columns}>
       <h1>Resume</h1>
-      <ul>
+      <ul className='columns' styles={style.columns}>
         <li>HTML5</li>
         <li>CSS3</li>
         <li>Javascript ES6+</li>
