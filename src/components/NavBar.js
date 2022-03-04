@@ -2,7 +2,7 @@ import React from 'react';
 
 function NavBar({ currentPage, handlePageChange }) {
     return (
-      <ul className="nav nav-tabs">
+      <ul className="nav nav-tabs d-flex justify-content-end">
         <li className="nav-item">
           <a
             href="#about"

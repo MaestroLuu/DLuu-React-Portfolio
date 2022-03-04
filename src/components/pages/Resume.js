@@ -1,16 +1,11 @@
 import React from 'react';
 
-const style = {
-    columns: {
-        columnCount: 2,
-    }
-}
 
 export default function Resume() {
   return (
-    <div styles={style.columns}>
+    <div>
       <h1>Resume</h1>
-      <ul className='columns' styles={style.columns}>
+      <ul>
         <li>HTML5</li>
         <li>CSS3</li>
         <li>Javascript ES6+</li>

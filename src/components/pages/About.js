@@ -3,7 +3,7 @@ import React from 'react';
 export default function About() {
     return (
         <div className="container-fluid .ms-1 .me-1">
-            <h1>About Me</h1>
+            <h1 className='text-center'>About Me</h1>
             <p>For the past decade, I've worked in the field of education, both in adminstration and 
                 as a general education teacher. The profession of being an instructor was always
                 fulfilling as I had the privilege to observe young minds develop and realize their potentials. I
