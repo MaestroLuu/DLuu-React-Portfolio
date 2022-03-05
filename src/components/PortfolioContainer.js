@@ -5,6 +5,8 @@ import Contact from "./pages/Contact";
 import Portfolio from "./pages/Portfolio/Portfolio";
 import Resume from "./pages/Resume";
 
+
+
 export default function PortfolioContainer() {
   const [currentPage, setCurrentPage] = useState("About");
   // selects which page to render
@@ -28,6 +30,12 @@ export default function PortfolioContainer() {
     <div>
       <NavBar currentPage={currentPage} handlePageChange={handlePageChange} />
       {renderPage()}
+      <footer className="text-center">
+        <a href="DLuu.developer@gmail.com">DLuu.developer@gmail.com</a> |
+        | <a href="tel:858-256-6163">858.256.6163</a> |
+        | <a href="https://github.com/MaestroLuu">Github</a> |
+        | <a href="https://www.linkedin.com/in/david-luu-developer/">LinkedIn</a>
+      </footer>
     </div>
   );
 }
