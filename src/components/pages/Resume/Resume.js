@@ -1,10 +1,11 @@
 import React from 'react';
-
+import updatedResume from './Updated_Resume-DLUU.pdf';
 
 export default function Resume() {
   return (
     <div>
       <h1>Resume</h1>
+      <a target="_blank" rel="noreferrer" href={updatedResume} download>Resume Download</a>
       <ul>
         <li>HTML5</li>
         <li>CSS3</li>
