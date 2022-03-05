@@ -4,7 +4,7 @@ export default function Resume() {
   return (
     <div>
       <h1>Resume</h1>
-      <a href='./resume.pdf' download>Download Resume</a>
+      <a href='resume.pdf' download>Download Resume</a>
       <ul>
         <li>HTML5</li>
         <li>CSS3</li>

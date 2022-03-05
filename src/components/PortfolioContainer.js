@@ -16,8 +16,10 @@ export default function PortfolioContainer() {
         return <Portfolio />;
       case "Resume":
         return <Resume />;
-      default:
+      case "Contact":
         return <Contact />;
+      default:
+        return <About />;
     }
   };
   const handlePageChange = (page) => setCurrentPage(page);
