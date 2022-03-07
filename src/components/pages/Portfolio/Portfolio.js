@@ -9,7 +9,7 @@ export default function Portfolio() {
   return (
     <div className='row d-flex justify-content-around'>
       <h1 className='text-center'>Portfolio</h1>
-      <div className='col-sm-5 shadow p-3 mb-5 bg-body rounded mt-2'>
+      <div className='col-sm-5 shadow p-3 mb-2 bg-body rounded mt-2'>
         <div className="card">
           <a href="https://protected-taiga-32909.herokuapp.com/" target='_blank'>
             <img src={jobBoard} className="card-img-top" alt="Job Board" />
@@ -21,7 +21,7 @@ export default function Portfolio() {
         </div>
       </div>
 
-      <div className='col-sm-5 shadow p-3 mb-5 bg-body rounded mt-2'>
+      <div className='col-sm-5 shadow p-3 mb-2 bg-body rounded mt-2'>
         <div className="card">
           <a href="https://maestroluu.github.io/Covid19-Testing-Site-Locator/" target={'_blank'}>
             <img src={covidTest} className="card-img-top" alt="Covid Test" />
@@ -33,7 +33,7 @@ export default function Portfolio() {
         </div>
       </div>
 
-      <div className='col-sm-5 shadow p-3 mb-5 bg-body rounded mt-3'>
+      <div className='col-sm-5 shadow p-3 mb-2 bg-body rounded mt-3'>
         <div className="card" >
           <a href="https://maestroluu.github.io/Weather-Dashboard/" >
             <img src={weatherDashboard} className="card-img-top" alt="Weather Dashboard" />
@@ -45,7 +45,7 @@ export default function Portfolio() {
         </div>
       </div>
 
-      <div className='col-sm-5 shadow p-3 mb-5 bg-body rounded mt-3'>
+      <div className='col-sm-5 shadow p-3 mb-2 bg-body rounded mt-3'>
         <div className="card">
           <a href="https://young-gorge-61076.herokuapp.com/" >
             <img src={textEditor} className='card-img-top' alt="Text Editor" />
