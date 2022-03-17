@@ -5,6 +5,9 @@ const styles = {
     fontFamily: 'Oswald, sans-serif',
     fontWeight: 'bold'
   },
+  fontColor: {
+    color: '#fff',
+  }
 };
 
 function NavBar({ currentPage, handlePageChange }) {
@@ -17,6 +20,7 @@ function NavBar({ currentPage, handlePageChange }) {
             href="#about"
             onClick={() => handlePageChange('About')}  
             className={currentPage === 'About' ? 'nav-link active' : 'nav-link '}
+            style={styles.fontColor}
           >
             About
           </a>
@@ -26,6 +30,7 @@ function NavBar({ currentPage, handlePageChange }) {
             href="#portfolio"
             onClick={() => handlePageChange('Portfolio')}
             className={currentPage === 'Portfolio' ? 'nav-link active' : 'nav-link'}
+            style={styles.fontColor}
           >
             Portfolio
           </a>
@@ -35,6 +40,7 @@ function NavBar({ currentPage, handlePageChange }) {
             href="#resume"
             onClick={() => handlePageChange('Resume')}  
             className={currentPage === 'Resume' ? 'nav-link active' : 'nav-link'}
+            style={styles.fontColor}
           >
             Resume
           </a>

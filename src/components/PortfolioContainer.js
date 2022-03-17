@@ -4,6 +4,11 @@ import About from "./pages/About";
 import Portfolio from "./pages/Portfolio/Portfolio";
 import Resume from "./pages/Resume";
 
+const styles = {
+  fontColor: {
+    color: '#fff',
+  }
+};
 
 export default function PortfolioContainer() {
   const [currentPage, setCurrentPage] = useState("About");
@@ -27,10 +32,10 @@ export default function PortfolioContainer() {
       <NavBar currentPage={currentPage} handlePageChange={handlePageChange} />
       {renderPage()}
       <footer className="text-center">
-        <a href="mailto: DLuu.developer@gmail.com">DLuu.developer@gmail.com</a> |
-        | <a href="tel:858-256-6163">858.256.6163</a> |
-        | <a href="https://github.com/MaestroLuu">Github</a> |
-        | <a href="https://www.linkedin.com/in/david-luu-developer/">LinkedIn</a>
+        <a style={styles.fontColor} href="mailto: DLuu.developer@gmail.com">DLuu.developer@gmail.com</a> |
+        <a style={styles.fontColor} href="tel:858-256-6163">858.256.6163</a> |
+        <a style={styles.fontColor} href="https://github.com/MaestroLuu">Github</a> |
+        <a style={styles.fontColor} href="https://www.linkedin.com/in/david-luu-developer/">LinkedIn</a>
       </footer>
     </div>
   );
