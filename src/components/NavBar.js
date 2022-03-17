@@ -3,7 +3,9 @@ import React from 'react';
 const styles = {
   h1: {
     fontFamily: 'Oswald, sans-serif',
-    fontWeight: 'bold'
+    fontWeight: 'bold',
+    fontSize: '60px',
+    textShadow: '0px 0px 20px black'
   },
   fontColor: {
     color: '#fff',

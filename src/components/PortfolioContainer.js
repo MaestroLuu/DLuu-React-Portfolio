@@ -6,8 +6,8 @@ import Resume from "./pages/Resume";
 
 const styles = {
   fontColor: {
-    color: '#fff',
-  }
+    color: "#fff",
+  },
 };
 
 export default function PortfolioContainer() {
@@ -32,10 +32,24 @@ export default function PortfolioContainer() {
       <NavBar currentPage={currentPage} handlePageChange={handlePageChange} />
       {renderPage()}
       <footer className="text-center">
-        <a style={styles.fontColor} href="mailto: DLuu.developer@gmail.com">DLuu.developer@gmail.com</a> |
-        <a style={styles.fontColor} href="tel:858-256-6163">858.256.6163</a> |
-        <a style={styles.fontColor} href="https://github.com/MaestroLuu">Github</a> |
-        <a style={styles.fontColor} href="https://www.linkedin.com/in/david-luu-developer/">LinkedIn</a>
+        <a style={styles.fontColor} href="mailto: DLuu.developer@gmail.com">
+          DLuu.developer@gmail.com
+        </a>{" "}
+        |{" "}
+        <a style={styles.fontColor} href="tel:858-256-6163">
+          858.256.6163
+        </a>{" "}
+        |{" "}
+        <a style={styles.fontColor} href="https://github.com/MaestroLuu">
+          Github
+        </a>{" "}
+        |{" "}
+        <a
+          style={styles.fontColor}
+          href="https://www.linkedin.com/in/david-luu-developer/"
+        >
+          LinkedIn
+        </a>
       </footer>
     </div>
   );
