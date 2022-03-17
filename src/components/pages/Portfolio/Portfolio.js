@@ -10,9 +10,9 @@ import bookSearch from './book-search.webp';
 export default function Portfolio() {
   return (
     <div className='row d-flex justify-content-evenly'>
-      <h1 className='text-center'>Portfolio</h1>
-      <div className='col-sm-3 shadow p-3 mb-2 mx-1 bg-body rounded mt-2'>
-        <div className="card">
+      <h2 className='text-center'>Portfolio</h2>
+      <div className='col-sm-3 shadow p-3 mb-2 mx-1 bg-transparent rounded mt-2'>
+        <div className="bg-transparent">
           <a href="https://protected-taiga-32909.herokuapp.com/" target='_blank'>
             <img src={jobBoard} className="card-img-top" alt="Job Board" />
           </a>
@@ -23,8 +23,8 @@ export default function Portfolio() {
         </div>
       </div>
 
-      <div className='col-sm-3 shadow p-3 mb-2 mx-1 bg-body rounded mt-2'>
-        <div className="card">
+      <div className='col-sm-3 shadow p-3 mb-2 mx-1 bg-transparent rounded mt-2'>
+        <div className="bg-transparent">
           <a href="https://maestroluu.github.io/Covid19-Testing-Site-Locator/" target={'_blank'}>
             <img src={covidTest} className="card-img-top" alt="Covid Test" />
           </a>
@@ -35,8 +35,8 @@ export default function Portfolio() {
         </div>
       </div>
 
-      <div className='col-sm-3 shadow p-3 mb-2 mx-1 bg-body rounded mt-3'>
-        <div className="card" >
+      <div className='col-sm-3 shadow p-3 mb-2 mx-1 bg-transparent rounded mt-3'>
+        <div className="bg-transparent" >
           <a href="https://maestroluu.github.io/Weather-Dashboard/" >
             <img src={weatherDashboard} className="card-img-top" alt="Weather Dashboard" />
           </a>
@@ -47,8 +47,8 @@ export default function Portfolio() {
         </div>
       </div>
 
-      <div className='col-sm-3 shadow p-3 mb-2 mx-1 bg-body rounded mt-3'>
-        <div className="card">
+      <div className='col-sm-3 shadow p-3 mb-2 mx-1 bg-transparent rounded mt-3'>
+        <div className="bg-transparent">
           <a href="https://young-gorge-61076.herokuapp.com/" >
             <img src={textEditor} className='card-img-top' alt="Text Editor" />
           </a>
@@ -59,8 +59,8 @@ export default function Portfolio() {
         </div>
       </div>
 
-      <div className='col-sm-3 shadow p-3 mb-2 mx-1 bg-body rounded mt-3'>
-        <div className="card">
+      <div className='col-sm-3 shadow p-3 mb-2 mx-1 bg-transparent rounded mt-3'>
+        <div className="bg-transparent">
           <a href="https://desolate-earth-02940.herokuapp.com/" >
             <img src={happyHour} className='card-img-top' alt="Text Editor" />
           </a>
@@ -71,8 +71,8 @@ export default function Portfolio() {
         </div>
       </div>
 
-      <div className='col-sm-3 shadow p-3 mb-2 mx-1 bg-body rounded mt-3'>
-        <div className="card">
+      <div className='col-sm-3 shadow p-3 mb-2 mx-1 bg-transparent rounded mt-3'>
+        <div className="bg-transparent">
           <a href="https://shielded-basin-97663.herokuapp.com/" >
             <img src={bookSearch} className='card-img-top' alt="Text Editor" />
           </a>

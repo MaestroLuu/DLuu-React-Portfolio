@@ -4,17 +4,18 @@ import ProfilePic from './profilePic.jpg';
 const styles = {
     photo: {
         width: "200px",
+        height: "auto",
     }
 }
 
 export default function About() {
     return (
         <div className="container-fluid .ms-1 .me-1 row">
-                <h1 className='text-center'>About Me</h1>
-            <div className='col-sm-2 p-3 mb-5 bg-body rounded'>
+                <h2 className='text-center'>About Me</h2>
+            <div className='col-sm-2 p-3 mb-5 bg-transparent rounded'>
                 <img src={ProfilePic} className="img-thumbnail shadow" style={styles.photo} alt="Profile" />
             </div>
-            <div className='col-sm-10 p-3 mb-5 bg-body rounded'>
+            <div className='col-sm-10 p-3 mb-5 rounded bg-transparent'>
                 <p>For the past decade, I've worked in the field of education, both in adminstration and 
                     as a general education teacher. The profession of being an instructor was always
                     fulfilling as I had the privilege to observe young minds develop and realize their potentials. I

@@ -1,18 +1,21 @@
 {
   "files": {
     "main.css": "/dluu-react-portfolio/static/css/main.1a8a0596.css",
-    "main.js": "/dluu-react-portfolio/static/js/main.53c5005e.js",
+    "main.js": "/dluu-react-portfolio/static/js/main.f5893b2f.js",
     "static/media/profilePic.jpg": "/dluu-react-portfolio/static/media/profilePic.a7ba72d8050f27801d07.jpg",
+    "static/media/book-search.webp": "/dluu-react-portfolio/static/media/book-search.bfcb2eae5bf7acb5d151.webp",
     "static/media/job-board.jpg": "/dluu-react-portfolio/static/media/job-board.27575b5b6a15a381e502.jpg",
     "static/media/coding.jpeg": "/dluu-react-portfolio/static/media/coding.903ed86cf90a03b69d19.jpeg",
+    "static/media/happy-hour.jpg": "/dluu-react-portfolio/static/media/happy-hour.780c1eee96ef45a891b0.jpg",
     "static/media/rain.jpg": "/dluu-react-portfolio/static/media/rain.23c45653a703ebfc6c3a.jpg",
     "static/media/covid-test.jpg": "/dluu-react-portfolio/static/media/covid-test.cb946cd4dc13cbeda78a.jpg",
+    "static/media/resume.pdf": "/dluu-react-portfolio/static/media/resume.97a9073ccfd890e9b202.pdf",
     "index.html": "/dluu-react-portfolio/index.html",
     "main.1a8a0596.css.map": "/dluu-react-portfolio/static/css/main.1a8a0596.css.map",
-    "main.53c5005e.js.map": "/dluu-react-portfolio/static/js/main.53c5005e.js.map"
+    "main.f5893b2f.js.map": "/dluu-react-portfolio/static/js/main.f5893b2f.js.map"
   },
   "entrypoints": [
     "static/css/main.1a8a0596.css",
-    "static/js/main.53c5005e.js"
+    "static/js/main.f5893b2f.js"
   ]
 }

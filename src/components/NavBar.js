@@ -1,15 +1,22 @@
 import React from 'react';
 
+const styles = {
+  h1: {
+    fontFamily: 'Oswald, sans-serif',
+    fontWeight: 'bold'
+  },
+};
+
 function NavBar({ currentPage, handlePageChange }) {
     return (
-      <div className='d-flex justify-content-between'>
-      <h1 m>David Luu</h1>
-      <ul className="nav nav-tabs d-flex justify-content-end">
+      <div>
+      <h1 className="mb-0 text-center" style={styles.h1}>David Luu</h1>
+      <ul className="nav nav-pills d-flex justify-content-center ">
         <li className="nav-item">
           <a
             href="#about"
             onClick={() => handlePageChange('About')}  
-            className={currentPage === 'About' ? 'nav-link active' : 'nav-link'}
+            className={currentPage === 'About' ? 'nav-link active' : 'nav-link '}
           >
             About
           </a>

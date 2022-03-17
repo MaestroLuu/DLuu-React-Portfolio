@@ -4,6 +4,7 @@ import About from "./pages/About";
 import Portfolio from "./pages/Portfolio/Portfolio";
 import Resume from "./pages/Resume";
 
+
 export default function PortfolioContainer() {
   const [currentPage, setCurrentPage] = useState("About");
   // selects which page to render
