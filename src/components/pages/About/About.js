@@ -12,7 +12,7 @@ export default function About() {
         <div className="container-fluid .ms-1 .me-1 row">
                 <h1 className='text-center'>About Me</h1>
             <div className='col-sm-2 p-3 mb-5 bg-body rounded'>
-                <img src={ProfilePic} className="img-thumbnail shadow" style={styles.photo} alt="Profile Picture" />
+                <img src={ProfilePic} className="img-thumbnail shadow" style={styles.photo} alt="Profile" />
             </div>
             <div className='col-sm-10 p-3 mb-5 bg-body rounded'>
                 <p>For the past decade, I've worked in the field of education, both in adminstration and 

@@ -9,7 +9,7 @@ export default function Portfolio() {
   return (
     <div className='row d-flex justify-content-around'>
       <h1 className='text-center'>Portfolio</h1>
-      <div className='col-sm-5 shadow p-3 mb-2 bg-body rounded mt-2'>
+      <div className='col-sm-3 shadow p-3 mb-2 mx-1 bg-body rounded mt-2'>
         <div className="card">
           <a href="https://protected-taiga-32909.herokuapp.com/" target='_blank'>
             <img src={jobBoard} className="card-img-top" alt="Job Board" />
@@ -21,7 +21,7 @@ export default function Portfolio() {
         </div>
       </div>
 
-      <div className='col-sm-5 shadow p-3 mb-2 bg-body rounded mt-2'>
+      <div className='col-sm-3 shadow p-3 mb-2 mx-1 bg-body rounded mt-2'>
         <div className="card">
           <a href="https://maestroluu.github.io/Covid19-Testing-Site-Locator/" target={'_blank'}>
             <img src={covidTest} className="card-img-top" alt="Covid Test" />
@@ -33,19 +33,19 @@ export default function Portfolio() {
         </div>
       </div>
 
-      <div className='col-sm-5 shadow p-3 mb-2 bg-body rounded mt-3'>
+      <div className='col-sm-3 shadow p-3 mb-2 mx-1 bg-body rounded mt-3'>
         <div className="card" >
           <a href="https://maestroluu.github.io/Weather-Dashboard/" >
             <img src={weatherDashboard} className="card-img-top" alt="Weather Dashboard" />
           </a>
           <div className="card-body">
-            <p className="card-text">Simple weather application that allows users to search for cities and display the current and upcoming 5-day forecast.</p>
+            <p className="card-text">Simple weather application that allows users to search for cities and display the current and upcoming 3-day forecast.</p>
             <a href="https://github.com/MaestroLuu/Weather-Dashboard" target='_blank'>weather Dashboard Github Repo</a>
           </div>
         </div>
       </div>
 
-      <div className='col-sm-5 shadow p-3 mb-2 bg-body rounded mt-3'>
+      <div className='col-sm-3 shadow p-3 mb-2 mx-1 bg-body rounded mt-3'>
         <div className="card">
           <a href="https://young-gorge-61076.herokuapp.com/" >
             <img src={textEditor} className='card-img-top' alt="Text Editor" />
@@ -56,6 +56,31 @@ export default function Portfolio() {
           </div>
         </div>
       </div>
+
+      <div className='col-sm-3 shadow p-3 mb-2 mx-1 bg-body rounded mt-3'>
+        <div className="card">
+          <a href="https://young-gorge-61076.herokuapp.com/" >
+            <img src={textEditor} className='card-img-top' alt="Text Editor" />
+          </a>
+          <div className="card-body">
+            <p className="card-text">Allows clients to code on their browser, save their code periodically, and reloaded when they refresh the page.</p>
+            <a href="https://github.com/MaestroLuu/On-the-Go-Coder" target='_blank'>On-the-Go Coder Github Repo</a>
+          </div>
+        </div>
+      </div>
+
+      <div className='col-sm-3 shadow p-3 mb-2 mx-1 bg-body rounded mt-3'>
+        <div className="card">
+          <a href="https://young-gorge-61076.herokuapp.com/" >
+            <img src={textEditor} className='card-img-top' alt="Text Editor" />
+          </a>
+          <div className="card-body">
+            <p className="card-text">Allows clients to code on their browser, save their code periodically, and reloaded when they refresh the page.</p>
+            <a href="https://github.com/MaestroLuu/On-the-Go-Coder" target='_blank'>On-the-Go Coder Github Repo</a>
+          </div>
+        </div>
+      </div>
+
     </div>
   );
 }

@@ -2,8 +2,8 @@ import React from 'react';
 
 function NavBar({ currentPage, handlePageChange }) {
     return (
-      <div>
-      {/* <h1 >David Luu</h1> */}
+      <div className='d-flex justify-content-between'>
+      <h1 >David Luu</h1>
       <ul className="nav nav-tabs d-flex justify-content-end">
         <li className="nav-item">
           <a
@@ -33,15 +33,6 @@ function NavBar({ currentPage, handlePageChange }) {
           </a>
         </li>
 
-        <li className="nav-item">
-          <a
-            href="#contact"  
-            onClick={() => handlePageChange('Contact')}
-            className={currentPage === 'Contact' ? 'nav-link active' : 'nav-link'}
-          >
-            Contact
-          </a>
-        </li>
       </ul>
       </div>
     );
