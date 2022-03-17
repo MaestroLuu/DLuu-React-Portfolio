@@ -4,10 +4,12 @@ import jobBoard from './job-board.jpg';
 import covidTest from './covid-test.jpg';
 import textEditor from './coding.jpeg';
 import weatherDashboard from './rain.jpg';
+import happyHour from './happy-hour.jpg';
+import bookSearch from './book-search.webp';
 
 export default function Portfolio() {
   return (
-    <div className='row d-flex justify-content-around'>
+    <div className='row d-flex justify-content-evenly'>
       <h1 className='text-center'>Portfolio</h1>
       <div className='col-sm-3 shadow p-3 mb-2 mx-1 bg-body rounded mt-2'>
         <div className="card">
@@ -59,24 +61,24 @@ export default function Portfolio() {
 
       <div className='col-sm-3 shadow p-3 mb-2 mx-1 bg-body rounded mt-3'>
         <div className="card">
-          <a href="https://young-gorge-61076.herokuapp.com/" >
-            <img src={textEditor} className='card-img-top' alt="Text Editor" />
+          <a href="https://desolate-earth-02940.herokuapp.com/" >
+            <img src={happyHour} className='card-img-top' alt="Text Editor" />
           </a>
           <div className="card-body">
-            <p className="card-text">Allows clients to code on their browser, save their code periodically, and reloaded when they refresh the page.</p>
-            <a href="https://github.com/MaestroLuu/On-the-Go-Coder" target='_blank'>On-the-Go Coder Github Repo</a>
+            <p className="card-text">Allows users to search for restaurants that have happy hour specials near their zipcode.</p>
+            <a href="https://github.com/MaestroLuu/Happy-Hour" target='_blank'>Happy Hour Github Repo</a>
           </div>
         </div>
       </div>
 
       <div className='col-sm-3 shadow p-3 mb-2 mx-1 bg-body rounded mt-3'>
         <div className="card">
-          <a href="https://young-gorge-61076.herokuapp.com/" >
-            <img src={textEditor} className='card-img-top' alt="Text Editor" />
+          <a href="https://shielded-basin-97663.herokuapp.com/" >
+            <img src={bookSearch} className='card-img-top' alt="Text Editor" />
           </a>
           <div className="card-body">
-            <p className="card-text">Allows clients to code on their browser, save their code periodically, and reloaded when they refresh the page.</p>
-            <a href="https://github.com/MaestroLuu/On-the-Go-Coder" target='_blank'>On-the-Go Coder Github Repo</a>
+            <p className="card-text">Allows users to search for books from Google books' API and save them to their user profile for future references.</p>
+            <a href="https://github.com/MaestroLuu/Book-Marker" target='_blank'>Book Marker Github Repo</a>
           </div>
         </div>
       </div>
