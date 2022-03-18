@@ -20,6 +20,7 @@ export default function Portfolio() {
   return (
     <div className="row d-flex justify-content-center mx-0">
       <h2 className="text-center">Portfolio</h2>
+      {/* Help for Hire */}
       <div
         style={styles.sizing}
         className="col-sm-3 shadow p-2 mx-1 bg-transparent rounded mt-1"
@@ -35,6 +36,10 @@ export default function Portfolio() {
             <p className="card-text">
               Allows users to both search and post jobs. Users need to sign-up
               and logged in for access.
+            </p>
+            <hr />
+            <p className="text-center">
+              HandleBars | Sequelize | Express | MySQL | NodeJs
             </p>
             <Button
               variant="outline-primary"
@@ -55,7 +60,7 @@ export default function Portfolio() {
           </div>
         </div>
       </div>
-
+      {/* Covid Testing */}
       <div
         style={styles.sizing}
         className="col-sm-3 shadow p-2 mx-1 bg-transparent rounded mt-1"
@@ -71,6 +76,10 @@ export default function Portfolio() {
             <p className="card-text">
               Assists users in locating Covid-19 testing facilities in
               California. Requires users to select city for results.
+            </p>
+            <hr />
+            <p className="text-center">
+              JavaScript | jQUery | RESTful APIs | W3 CSS 
             </p>
             <Button
               variant="outline-primary"
@@ -91,7 +100,7 @@ export default function Portfolio() {
           </div>
         </div>
       </div>
-
+      {/* On the go COder */}
       <div
         style={styles.sizing}
         className="col-sm-3 shadow p-2 mx-1 bg-transparent rounded mt-1 "
@@ -104,6 +113,10 @@ export default function Portfolio() {
             <p className="card-text">
               Allows clients to code on their browser, save their code, and
               reloaded when they leave the page.
+            </p>
+            <hr />
+            <p className="text-center">
+              Webpack | Express | NodeJs | Babel
             </p>
             <Button
               variant="outline-primary"
@@ -124,7 +137,7 @@ export default function Portfolio() {
           </div>
         </div>
       </div>
-
+      {/* Happy Hour */}
       <div
         style={styles.sizing}
         className="col-sm-3 shadow p-2 mx-1 bg-transparent rounded mt-1"
@@ -137,6 +150,10 @@ export default function Portfolio() {
             <p className="card-text">
               Allows users to search for restaurants that have happy hour
               specials near their zipcode.
+            </p>
+            <hr />
+            <p className="text-center">
+              MongoDB | NodeJs | GraphQL | Express | React 
             </p>
             <Button
               variant="outline-primary"
@@ -157,7 +174,7 @@ export default function Portfolio() {
           </div>
         </div>
       </div>
-
+      {/* Book Marker */}
       <div
         style={styles.sizing}
         className="col-sm-3 shadow p-2 mx-1 bg-transparent rounded mt-1"
@@ -170,6 +187,10 @@ export default function Portfolio() {
             <p className="card-text">
               Allows users to search for books and save them to their user
               profile for future references.
+            </p>
+            <hr/>
+            <p className="text-center">
+              MongoDB | NodeJs | Mongoose | Express | React 
             </p>
             <Button
               variant="outline-primary"
