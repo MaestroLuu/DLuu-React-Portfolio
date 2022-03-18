@@ -42,7 +42,7 @@ export default function About() {
           </p>
           <hr />
           <h2 className="text-center">Technical Skills</h2>
-          <p className="card-text text-center"> HTML : CSS : JavaScript : React : NodeJs : Express : Mongoose : Sequelize : 
+          <p className="card-text text-center"> HTML : CSS : JavaScript : React : NodeJs : Express : Mongoose <br/> Sequelize : 
           MySQL : NoSQL : MongoDB : Insomnia : Postman : Apollo Sandbox : Jest</p> 
         </div>
       </div>
