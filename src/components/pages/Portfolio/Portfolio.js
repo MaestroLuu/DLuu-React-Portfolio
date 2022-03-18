@@ -4,26 +4,25 @@ import jobBoard from './job-board.jpg';
 import covidTest from './covid-test.jpg';
 import textEditor from './coding.jpeg';
 import happyHour from './happy-hour.jpg';
-import bookSearch from './book-search.webp';
+import bookSearch from './book-search.jpg';
 
 const styles = {
   shadow: {
     boxShadow: '0px 0px 30px lightblue',
   },
-  sizing: {
-    height: '160px',
+  width: {
     width: '300px',
-  }
+  },
 }
 
 export default function Portfolio() {
   return (
     <div className='row d-flex justify-content-center mx-0'>
       <h2 className='text-center'>Portfolio</h2>
-      <div className='col-sm-3 shadow p-2 mx-1 bg-transparent rounded mt-1'>
+      <div style={styles.sizing} className='col-sm-3 shadow p-2 mx-1 bg-transparent rounded mt-1'>
         <div className="bg-transparent" style={styles.shadow}>
           <a href="https://protected-taiga-32909.herokuapp.com/" target='_blank'>
-            <img style={styles.sizing} src={jobBoard} className="card-img-top" alt="Job Board" />
+            <img src={jobBoard} className="card-img-top" alt="Job Board" />
           </a>
           <div className="card-body">
             <p className="card-text">Allows users to both search and post jobs. Users need to sign-up and logged in for access.</p>
@@ -33,10 +32,10 @@ export default function Portfolio() {
         </div>
       </div>
 
-      <div className='col-sm-3 shadow p-2 mx-1 bg-transparent rounded mt-1'>
+      <div style={styles.sizing} className='col-sm-3 shadow p-2 mx-1 bg-transparent rounded mt-1'>
         <div className="bg-transparent" style={styles.shadow}>
           <a href="https://maestroluu.github.io/Covid19-Testing-Site-Locator/" target={'_blank'}>
-            <img style={styles.sizing} src={covidTest} className="card-img-top" alt="Covid Test" />
+            <img src={covidTest} className="card-img-top" alt="Covid Test" />
           </a>
           <div className="card-body">
             <p className="card-text">Assists users in locating Covid-19 testing facilities in California. Requires users to select city for results.</p>
@@ -46,10 +45,10 @@ export default function Portfolio() {
         </div>
       </div>
 
-      <div className='col-sm-3 shadow p-2 mx-1 bg-transparent rounded mt-1 '>
+      <div style={styles.sizing} className='col-sm-3 shadow p-2 mx-1 bg-transparent rounded mt-1 '>
         <div className="bg-transparent" style={styles.shadow}>
           <a href="https://young-gorge-61076.herokuapp.com/" >
-            <img style={styles.sizing} src={textEditor} className='card-img-top' alt="Text Editor" />
+            <img src={textEditor} className='card-img-top' alt="Text Editor" />
           </a>
           <div className="card-body">
             <p className="card-text">Allows clients to code on their browser, save their code, and reloaded when they leave the page.</p>
@@ -59,10 +58,10 @@ export default function Portfolio() {
         </div>
       </div>
 
-      <div className='col-sm-3 shadow p-2 mx-1 bg-transparent rounded mt-1'>
+      <div style={styles.sizing} className='col-sm-3 shadow p-2 mx-1 bg-transparent rounded mt-1'>
         <div className="bg-transparent" style={styles.shadow}>
           <a href="https://desolate-earth-02940.herokuapp.com/" >
-            <img style={styles.sizing} src={happyHour} className='card-img-top' alt="Text Editor" />
+            <img src={happyHour} className='card-img-top' alt="Text Editor" />
           </a>
           <div className="card-body">
             <p className="card-text">Allows users to search for restaurants that have happy hour specials near their zipcode.</p>
@@ -72,10 +71,10 @@ export default function Portfolio() {
         </div>
       </div>
 
-      <div className='col-sm-3 shadow p-2 mx-1 bg-transparent rounded mt-1'>
+      <div style={styles.sizing} className='col-sm-3 shadow p-2 mx-1 bg-transparent rounded mt-1'>
         <div className="bg-transparent" style={styles.shadow}>
           <a href="https://shielded-basin-97663.herokuapp.com/" >
-            <img style={styles.sizing} src={bookSearch} className='card-img-top' alt="Text Editor" />
+            <img src={bookSearch} className='card-img-top' alt="Text Editor" />
           </a>
           <div className="card-body">
             <p className="card-text">Allows users to search for books and save them to their user profile for future references.</p>

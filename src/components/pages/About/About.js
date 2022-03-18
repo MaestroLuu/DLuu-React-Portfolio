@@ -1,36 +1,51 @@
-import React from 'react';
-import ProfilePic from './profilePic.jpg';
+import React from "react";
+import ProfilePic from "./profilePic.jpg";
 
 const styles = {
-    photo: {
-        width: "200px",
-        height: "auto",
-    }
-}
+  photo: {
+    width: "auto",
+    height: "420px",
+    padding: "1px",
+    marginRight: "10px",
+  },
+};
 
 export default function About() {
-    return (
-        <div className="container-fluid .ms-1 .me-1 row">
-                <h2 className='text-center'>About Me</h2>
-            <div className='col-sm-2 mb-1 bg-transparent rounded'>
-                <img src={ProfilePic} className="img-thumbnail shadow" style={styles.photo} alt="Profile" />
-            </div>
-            <div className='col-sm-10 mb-5 rounded bg-transparent'>
-                <p>For the past decade, I've worked in the field of education, both in adminstration and 
-                    as a general education teacher. The profession of being an instructor was always
-                    fulfilling as I had the privilege to observe young minds develop and realize their potentials. I
-                    enjoyed knowing that I was able to play a role in their lives, but moreso that I had the opportunity to act 
-                    as a mentor and direct them to pathways that they never thought possible for themselves.
-                    However, due to the recent pandemic, teachers are now pressured even more to work beyond the
-                    scope of their responsibilities. Educational budgets are reduced, but responsibilities are increased 
-                    and expectations are higher now than before. As a result, I had to retire from this career for my own personal
-                    wellbeing. That's why I'm here today.</p>
-                <p>I'm a full time father and my new drive to succeed derives from my devotion to my family's
-                    wellbeing. Technology is evergrowing and as a result, I wanted
-                    to be a part of that change. I still am nervous about these decisions and aware that there are
-                    various challenges and barriers to my success. However, I
-                    am determined to overcome these obstacles and become a front-end web developer.</p>
-            </div>
+  return (
+    <div className="container-fluid d-flex justify-content-center .ms-1 .me-1 row">
+      <img
+        src={ProfilePic}
+        className=" card border-light mb-3 bg-transparent col-sm-8 mt-2 rounded img-thumbnail shadow mt-2"
+        style={styles.photo}
+        alt="Profile"
+      />
+
+      <div className="card border-light mb-3 bg-transparent col-sm-8 mt-2 rounded bg-transparent">
+        <div className="card-header border-light">
+          <h3 className="text-center">About Me</h3>
         </div>
-    );
+        <div className="card-body">
+          <p className="card-text">
+            Full Stack Web Developer with a background in Education and
+            expansive experience in dynamic group management, collaborative
+            curriculum development, and flexibility regarding problem-solving.
+            Passionate about resolving problems and driven to deliver code
+            efficiency and clarity during application development for a
+            responsive web design. 
+          </p>
+          <p className="card-text">
+            Known among colleagues for strong willingness
+            to provide support and attention to detail to all complexities of a
+            project. Excited to apply my skills as part of a fast-paced,
+            quality-driven team to develop dynamic experiences for users on the
+            web.
+          </p>
+          <hr />
+          <h2 className="text-center">Technical Skills</h2>
+          <p className="card-text text-center"> HTML : CSS : JavaScript : React : NodeJs : Express : Mongoose : Sequelize : 
+          MySQL : NoSQL : MongoDB : Insomnia : Postman : Apollo Sandbox : Jest</p> 
+        </div>
+      </div>
+    </div>
+  );
 }
