@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/dluu-react-portfolio/static/css/main.66fd8983.css",
-    "main.js": "/dluu-react-portfolio/static/js/main.c6bac0f3.js",
+    "main.js": "/dluu-react-portfolio/static/js/main.0ce9e02f.js",
     "static/media/resumeImg.png": "/dluu-react-portfolio/static/media/resumeImg.b20e8829882d51216b86.png",
     "static/media/book-search.jpg": "/dluu-react-portfolio/static/media/book-search.245c5583a738aa9a0a97.jpg",
     "static/media/resumeImg2.png": "/dluu-react-portfolio/static/media/resumeImg2.e954e9b6bb899f0d2e7a.png",
@@ -14,10 +14,10 @@
     "static/media/covid-test.jpg": "/dluu-react-portfolio/static/media/covid-test.cb946cd4dc13cbeda78a.jpg",
     "index.html": "/dluu-react-portfolio/index.html",
     "main.66fd8983.css.map": "/dluu-react-portfolio/static/css/main.66fd8983.css.map",
-    "main.c6bac0f3.js.map": "/dluu-react-portfolio/static/js/main.c6bac0f3.js.map"
+    "main.0ce9e02f.js.map": "/dluu-react-portfolio/static/js/main.0ce9e02f.js.map"
   },
   "entrypoints": [
     "static/css/main.66fd8983.css",
-    "static/js/main.c6bac0f3.js"
+    "static/js/main.0ce9e02f.js"
   ]
 }
