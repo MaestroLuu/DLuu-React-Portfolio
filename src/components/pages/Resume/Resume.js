@@ -1,5 +1,5 @@
 import React from "react";
-import UpdatedResume from "./resume.pdf";
+import UpdatedResume from "./DLuuResume.pdf";
 import ResumeImg from "./resumeImg.png";
 import ResumeImg2 from "./resumeImg2.png";
 

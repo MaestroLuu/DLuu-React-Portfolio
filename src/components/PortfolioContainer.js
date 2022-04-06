@@ -50,6 +50,13 @@ export default function PortfolioContainer() {
         >
           LinkedIn
         </a>
+        |{" "}
+        <a
+          style={styles.fontColor}
+          href="https://calendly.com/dluu-developer"
+        >
+          Calendly
+        </a>
       </footer>
     </div>
   );

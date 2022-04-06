@@ -8,6 +8,10 @@ const styles = {
     padding: "1px",
     marginRight: "10px",
   },
+  bgColor: {
+    backgroundImage: "linear-gradient(rgba(0,0,0,.5) ,rgba(0,0,0,.5))",
+    boxShadow: "0px 0px 30px lightblue"
+  }
 };
 
 export default function About() {
@@ -15,12 +19,12 @@ export default function About() {
     <div className="container-fluid d-flex justify-content-center .ms-1 .me-1 row">
       <img
         src={ProfilePic}
-        className=" card border-light mb-3 bg-transparent col-sm-8 mt-2 rounded img-thumbnail shadow mt-2"
+        className=" card border-light mb-3 bg-transparent col-sm-8 mt-2 rounded img-thumbnail shadow mt-2" 
         style={styles.photo}
         alt="Profile"
       />
 
-      <div className="card border-light mb-3 bg-transparent col-sm-8 mt-2 rounded bg-transparent">
+      <div className="card border-light mb-3 bg-transparent col-sm-8 mt-2 rounded" style={styles.bgColor}>
         <div className="card-header border-light">
           <h3 className="text-center">About Me</h3>
         </div>
